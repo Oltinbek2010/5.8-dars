@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acer Calculator</title>
+</head>
+<body>
+    <form action="" name="form">
+        <input id="input" name="answer" type="text" placeholder="Enter"><br>
+        <input onclick="form.answer.value += '1'" type="button" value="1">
+        <input onclick="form.answer.value += '2'" type="button" value="2">
+        <input onclick="form.answer.value += '3'" type="button" value="3">
+        <input onclick="form.answer.value += '*'" type="button" value="*"><br>
+        <input onclick="form.answer.value += '4'" type="button" value="4">
+        <input onclick="form.answer.value += '5'" type="button" value="5">
+        <input onclick="form.answer.value += '6'" type="button" value="6">
+        <input onclick="form.answer.value += '/'" type="button" value="/"><br>
+        <input onclick="form.answer.value += '7'" type="button" value="7">
+        <input onclick="form.answer.value += '8'" type="button" value="8">
+        <input onclick="form.answer.value += '9'" type="button" value="9">
+        <input onclick="form.answer.value += '+'" type="button" value="+"><br>
+        <input onclick="form.answer.value += '-'" type="button" value="-">
+        <input onclick="form.answer.value += '0'" type="button" value="0">
+        <input onclick="form.answer.value = eval(form.answer.value)" type="button" value="=">
+        <input onclick="form.answer.value = ''" type="button" value="C">
+    </form>
+    <script src="./js/script.js"></script>
+</body>
+</html>
